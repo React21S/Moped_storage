@@ -1,0 +1,19 @@
+{
+  "name": "oyinloye_femi_moped_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://react21s.github.io/mopeds",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

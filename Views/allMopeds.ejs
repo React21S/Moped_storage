@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+  
+        <header> 
+            <h1> Moped Storage </h1>
+        </header>
+        
+   
+    <main>
+        <h2>All Mopeds in storage </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>MopedId</th>
+                    <th>Name</th>
+                    <th>Rating</th>
+                    <th>Topspeed</th>
+                    <th>Year of model</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- we can use this js code to get all person -->
+                <% result.forEach(mope =>{ %>
+                    <tr>
+                        <td><%= mope.mopedId %></td>
+                        <td><%= mope.name %></td>
+                        <td><%= mope.rating %></td>
+                        <td><%= mope.topspeed %></td>
+                        <td><%= mope.modelYear %></td>
+                    </tr>
+                <%})%>
+            </tbody>
+        </table>
+        <div class="mbtn">
+            <a href="/"><button class="btn">Menu</button></a>
+        </div>
+    </main>
+    <div className="footerWrapper">
+        <footer>
+            <p>Femi Adesola &copy; 2021</p>
+        </footer>
+    </div>
+</body>
+</html>

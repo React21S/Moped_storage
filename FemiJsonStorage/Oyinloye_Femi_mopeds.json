@@ -1,0 +1,79 @@
+[
+    {
+        "mopedId": 5,
+        "name": "Skooter 95",
+        "rating": "****",
+        "topspeed": 25,
+        "modelYear": 2015
+    },
+    {
+        "mopedId": 6,
+        "name": "Xross 3",
+        "rating": "*",
+        "topspeed": 30,
+        "modelYear": 1990
+    },
+    {
+        "mopedId": 4,
+        "name": "Mummy 10",
+        "rating": "***",
+        "topspeed": 10,
+        "modelYear": "2011-02"
+    },
+    {
+        "mopedId": 7,
+        "name": "MaxNoise 120",
+        "rating": "**",
+        "topspeed": 5,
+        "modelYear": 2012
+    },
+    {
+        "mopedId": 2,
+        "name": "MotoX 2000",
+        "rating": "*****",
+        "topspeed": 20,
+        "modelYear": 2017
+    },
+    {
+        "mopedId": 3,
+        "name": "Daddy 1",
+        "rating": "**",
+        "topspeed": 40,
+        "modelYear": 2005
+    },
+    {
+        "mopedId": 1,
+        "name": "Grampa 89",
+        "rating": "*",
+        "topspeed": 15,
+        "modelYear": 2000
+    },
+    {
+        "mopedId": 9,
+        "name": "Faggio",
+        "rating": "***",
+        "topspeed": 30,
+        "modelYear": 2009
+    },
+    {
+        "mopedId": 10,
+        "name": "Toyota",
+        "rating": "*****",
+        "topspeed": 45,
+        "modelYear": "2020-02"
+    },
+    {
+        "mopedId": 11,
+        "name": "Toyota",
+        "rating": "***",
+        "topspeed": 45,
+        "modelYear": "2017-01"
+    },
+    {
+        "mopedId": 8,
+        "name": "Honda",
+        "rating": "***",
+        "topspeed": 20,
+        "modelYear": "2006-03"
+    }
+]
