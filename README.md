@@ -12,7 +12,7 @@ This program is a backend software application whereby users can add or remove d
 ![All-screenshot](/img/All.png)
 
 ---
-## Getting single Item in the Store
+## Getting single item in the Store
 - From the front page, when the user clicks on getting one item, another page appear where the user can write id or select id to fetch the item in the store. By clicking on submit button, the actual information in the store regarding the selected Id appeared. 
 ![gettingOne-screenshot](/img/GettingOne.png)
 
