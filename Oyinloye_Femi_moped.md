@@ -220,13 +220,10 @@ const MESSAGES = {
 
 
 
-way to write the code programme
+way to write the code programme step by step
 1. json file
 2. readAndWrite.js
 3. is better to create mopedAdaptor for easy access
 4. MopeFunctionLayer.js
 5. statusCode
 6. MopedStorageLayer
-
-
-

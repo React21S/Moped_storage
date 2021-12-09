@@ -129,6 +129,4 @@ app.post('/remove', (req,res)=>{
     .catch(error=>sendErrorPage(res,error));
 });
 
-
-
 server.listen(port, host, ()=>console.log(`Server is running on ${host}:${port}`));
