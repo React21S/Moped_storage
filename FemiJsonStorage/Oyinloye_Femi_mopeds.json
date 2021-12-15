@@ -32,7 +32,7 @@
         "name": "MotoX 2000",
         "rating": "*****",
         "topspeed": 20,
-        "modelYear": 2017
+        "modelYear": "2021-08"
     },
     {
         "mopedId": 3,
@@ -68,12 +68,5 @@
         "rating": "***",
         "topspeed": 45,
         "modelYear": "2017-01"
-    },
-    {
-        "mopedId": 8,
-        "name": "Honda",
-        "rating": "***",
-        "topspeed": 20,
-        "modelYear": "2006-03"
     }
 ]
