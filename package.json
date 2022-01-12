@@ -5,6 +5,9 @@
   "main": "index.js",
   "homepage": "https://react21s.github.io/Moped_storage",
   "scripts": {
+    "lint": "echo 'Linting!'",
+    "build": "echo 'Running a build!'",
+    "test": "echo 'Running unit tests!'",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
