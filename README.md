@@ -1,6 +1,6 @@
 [![NODE](https://github.com/React21S/Moped_storage/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/Moped_storage/actions)
 # Node and Express JS [Backend application]
-This program is a backend software application whereby users can add or remove data from the database by JSON application. 
+This program is a backend software application whereby users can add or remove data from the database by JSON application.
 
 --- 
 ## Front Page
