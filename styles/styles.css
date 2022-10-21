@@ -182,11 +182,12 @@ header{
 
 /* ####### Footer ###### */
 footer{
-  text-align: center;
+
   background-color: var(--ml-2);
-  padding: 0.5rem;
-  bottom:0;
-  width:100%;
+ font-size: 20px;
+  padding-top:40px;
+  text-align: center;
+  position: relative;
  
  
 }
@@ -199,15 +200,21 @@ footer p{
 }
 
 .footerWrapper{
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
+  position:absolute;
+  width:100%;
 }
 
 footer p{ 
   font-family: var(--font-2);
   font-size: 1.5rem;
   padding: 30px;
+}
+
+footer a{
+  text-decoration: none;
 }
 
 footer .icons i {

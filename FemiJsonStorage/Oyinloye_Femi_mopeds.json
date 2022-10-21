@@ -68,5 +68,19 @@
         "rating": "***",
         "topspeed": 45,
         "modelYear": "2017-01"
+    },
+    {
+        "mopedId": 13,
+        "name": "Color",
+        "rating": "****",
+        "topspeed": 40,
+        "modelYear": "2022-02"
+    },
+    {
+        "mopedId": 12,
+        "name": "Femi Adesola",
+        "rating": "****",
+        "topspeed": 40,
+        "modelYear": "2022-10"
     }
 ]
