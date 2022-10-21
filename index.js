@@ -2,7 +2,11 @@
 
 const http = require('http');
 const path = require('path');
+// Helmet and compresssion
+const helmet = require('helmet');
 const compression = require('compression');
+const morgan = require('morgan'); 
+
 const express = require('express');
 const app = express();
 
@@ -22,11 +26,13 @@ const server = http.createServer(app);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'Views'));
 
-
+app.use(helmet());
+app.use(compression());
+app.use(morgan('combined', {stream:accessLogStream})); 
 
 app.use(express.urlencoded({extended:false}));
 app.use(express.static(path.join(__dirname, 'styles')));
-app.use(compression());
+
 const indexPath = path.join(__dirname, 'index.html');
 
 app.get('/', (req, res)=>res.sendFile(indexPath));
