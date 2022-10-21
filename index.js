@@ -1,5 +1,6 @@
 'use strict';
 
+const fs = require('fs');
 const http = require('http');
 const path = require('path');
 // Helmet and compresssion
@@ -22,7 +23,11 @@ const DataStorage = require(path.join(__dirname, '/FemiJsonStorage', './MopedSto
 
 const dataStorage = new DataStorage();
 const server = http.createServer(app);
-
+// for morgan
+const accessLogStream = fs.createWriteStream(
+  path.join(__dirname, 'access.log'),
+  { flags: 'a' }
+);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'Views'));
 
@@ -135,4 +140,5 @@ app.post('/remove', (req,res)=>{
     .catch(error=>sendErrorPage(res,error));
 });
 
-server.listen(port, host, ()=>console.log(`Server is running on ${process.env.PORT} || ${host}:${port}`));
+server.listen(process.env.PORT || 3000);
+// server.listen(port, host, ()=>console.log(`Server is running on ${process.env.PORT} || ${host}:${port}`));
