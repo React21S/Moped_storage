@@ -68,5 +68,12 @@
         "rating": "***",
         "topspeed": 20,
         "modelYear": "2006-03"
+    },
+    {
+        "mopedId": 23,
+        "name": "test",
+        "rating": "****",
+        "topspeed": 345,
+        "modelYear": "2025-09"
     }
 ]

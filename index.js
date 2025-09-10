@@ -140,5 +140,5 @@ app.post('/remove', (req,res)=>{
     .catch(error=>sendErrorPage(res,error));
 });
 
-server.listen(process.env.PORT || 3000);
-// server.listen(port, host, ()=>console.log(`Server is running on ${process.env.PORT} || ${host}:${port}`));
+// server.listen(process.env.PORT || 3000);
+server.listen(port, host, ()=>console.log(`Server is running on ${process.env.PORT} || ${host}:${port}`));
